@@ -1,6 +1,6 @@
 # Stock Price Prediction Using Machine Learning
 
-This project implements a stock price prediction pipeline aligned with the minor report in [stock_price_prediction_minor_report.md](/Users/suryanshx/Documents/New%20project/stock_price_prediction_mino[...])
+This project implements a stock price prediction pipeline
 
 It focuses on:
 
