@@ -1,16 +1,15 @@
 # Stock Price Prediction Using Machine Learning
 
-This project implements a stock price prediction pipeline aligned with the minor report in [stock_price_prediction_minor_report.md](/Users/suryanshx/Documents/New%20project/stock_price_prediction_minor_report.md).
+This project implements a stock price prediction pipeline aligned with the minor report in [stock_price_prediction_minor_report.md]
 
 It focuses on:
-
 - historical stock data collection using `yfinance`
-- technical indicator based feature engineering
+- technical indicator-based feature engineering
 - sliding window sequence generation
-- LSTM based next-day close price prediction
+- LSTM-based next-day close price prediction
 - leakage-safe time-series train/validation/test split
 - evaluation using `MAE`, `RMSE`, `MAPE`, and `R2`
-- recruiter-friendly visual artifacts for model validation
+- recruiter-friendly visual artefacts for model validation
 
 ## Project Structure
 
@@ -59,24 +58,8 @@ The training script saves outputs inside `artifacts/<symbol>/`:
 - `residual_analysis.png`
 - `feature_correlation_heatmap.png`
 - `price_with_indicators.png`
-
-## Resume Positioning
-
-Use [resume_project_summary.md](/Users/suryanshx/Documents/New%20project/resume_project_summary.md) for resume bullets and interview framing.
-
-## Interview Concepts Covered
-
-- why stock prediction is a time-series problem
-- how sliding window transforms sequential data into supervised learning data
-- why random shuffling causes leakage in time-series projects
-- why LSTM is chosen over vanilla RNN
-- how technical indicators improve feature representation
-- how `EarlyStopping` and `Dropout` reduce overfitting
-- how walk-forward style thinking improves realistic evaluation
-- how residual analysis and training curves validate model quality
-
 ## Notes
 
 - This project predicts the next closing price, not long-range future prices.
 - It is an academic project and not trading advice.
-- No deployment or AWS components are included.
+
