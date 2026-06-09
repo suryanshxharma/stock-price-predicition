@@ -60,23 +60,4 @@ The training script saves outputs inside `artifacts/<symbol>/`:
 - `feature_correlation_heatmap.png`
 - `price_with_indicators.png`
 
-## Resume Positioning
 
-Use [resume_project_summary.md](/Users/suryanshx/Documents/New%20project/resume_project_summary.md) for resume bullets and interview framing.
-
-## Interview Concepts Covered
-
-- why stock prediction is a time-series problem
-- how sliding window transforms sequential data into supervised learning data
-- why random shuffling causes leakage in time-series projects
-- why LSTM is chosen over vanilla RNN
-- how technical indicators improve feature representation
-- how `EarlyStopping` and `Dropout` reduce overfitting
-- how walk-forward style thinking improves realistic evaluation
-- how residual analysis and training curves validate model quality
-
-## Notes
-
-- This project predicts the next closing price, not long-range future prices.
-- It is an academic project and not trading advice.
-- No deployment or AWS components are included.
